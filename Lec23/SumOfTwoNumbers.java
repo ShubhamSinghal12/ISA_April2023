@@ -35,15 +35,14 @@ public class SumOfTwoNumbers {
 				j--;
 			}
 			
-			ans.add(sum%10);
+			ans.add(0,sum%10);
 			c = sum/10;
 		}
 		
 		if(c == 1)
-			ans.add(1);
+			ans.add(0,1);
 		
-		Collections.reverse(ans);
+//		Collections.reverse(ans);
 		return ans;
 	}
-
 }
