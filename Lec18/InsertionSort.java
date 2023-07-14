@@ -10,7 +10,6 @@ public class InsertionSort {
 //		insert(arr, 4);
 		insertionSort(arr);
 		System.out.println(Arrays.toString(arr));
-
 	}
 	
 	public static void insert(int[] arr,int i)
