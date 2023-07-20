@@ -16,7 +16,8 @@ public class ArraysSum {
 		}
 		else
 		{
-			return arr[i]+sum(arr,++i);
+			return arr[i]+sum(arr,i+1);
 		}
 	}
+	
 }
