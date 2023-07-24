@@ -39,6 +39,7 @@ public class AllOccurances {
 			{
 				ans[count-1] = i;
 			}
+			
 			return ans;
 			
 		}
@@ -56,9 +57,7 @@ public class AllOccurances {
 			{
 				ans.add(i);
 			}
-			
 			allO2(arr, i+1, ele,ans);
-			
 		}
 	}
 	
