@@ -9,8 +9,6 @@ public class BlockedMaze {
 //		boolean[][] maze = new boolean[m][n];
 //		mazePath(maze,0, 0, "");
 		
-		int a = 0;
-		System.out.println(++a == a+1);
 	}
 	
 	public static void mazePath(boolean[][] maze, int cr,int cc,String ans)

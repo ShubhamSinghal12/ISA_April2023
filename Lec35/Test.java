@@ -6,7 +6,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		
 		int a = 10;
-		test(a);
+		test(a+10);
 		System.out.println(a);
 
 	}
