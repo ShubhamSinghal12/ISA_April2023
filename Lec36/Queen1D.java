@@ -51,5 +51,25 @@ public class Queen1D {
 			}
 		}
 	}
+	
+	public static void qcbr(boolean[] board,int b,int qp,int tq,String ans)
+	{
+		if(qp == tq)
+		{
+			System.out.println(ans);
+		}
+		else if(b >= board.length)
+		{
+			return;
+		}
+		else
+		{
+			board[b] = true;
+			qcbr(board, b+1, qp+1, tq, ans+"qb"+b+" "); //Pick
+			board[b] = false;
+			
+			qcbr(board, b+1, qp, tq, ans); //Not Pick
+		}
+	}
 
 }

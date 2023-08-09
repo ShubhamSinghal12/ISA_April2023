@@ -47,9 +47,9 @@ public class CoinChange {
 		{
 			for(int i = lp; i < coins.length; i++)
 			{
-				n = n-coins[i];
-				ccc(coins, n,i, ans+coins[i]+" ");
-				n = n+coins[i]; // Backtracking
+//				n = n-coins[i];
+				ccc(coins, n-coins[i],i, ans+coins[i]+" ");
+//				n = n+coins[i]; // Backtracking
 			}
 		}
 	}
